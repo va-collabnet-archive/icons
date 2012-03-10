@@ -15,5 +15,6 @@
     <module>flag-icons</module>
     <module>fugue-icons</module>
     <module>silk-icons</module>
+    <module>diagona-icons</module>
   </modules>
 </project>
