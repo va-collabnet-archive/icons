@@ -6,7 +6,6 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <artifactId>fugue-icons</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <name>Icons - fuge</name>
   <licenses>
     <license>
