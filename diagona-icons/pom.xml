@@ -3,10 +3,10 @@
   <parent>
     <groupId>org.ihtsdo</groupId>
     <artifactId>icons</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
   </parent>
   <artifactId>diagona-icons</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Icons - diagona</name>
   <licenses>
     <license>
