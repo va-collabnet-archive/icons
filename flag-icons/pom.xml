@@ -3,10 +3,10 @@
   <parent>
     <groupId>org.ihtsdo</groupId>
     <artifactId>icons</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
   </parent>
   <artifactId>flag-icons</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>Icons - flags</name>
   <licenses> 
     <license>
