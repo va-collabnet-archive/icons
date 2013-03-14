@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.ihtsdo</groupId>
@@ -8,13 +6,13 @@
     <version>1</version>
   </parent>
   <artifactId>icons</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Icons</name>
   <packaging>pom</packaging>
   <scm>
-      <connection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/trunk/icons</connection>
-      <developerConnection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/trunk/icons</developerConnection>
-      <url>https://csfe.aceworkspace.net/integration/viewvc/viewvc.cgi/trunk/icons/?root=icons-os&amp;system=exsy1002</url>
+      <connection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/tags/icons-1.0</connection>
+      <developerConnection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/tags/icons-1.0</developerConnection>
+      <url>https://csfe.aceworkspace.net/integration/viewvc/viewvc.cgi/tags/icons-1.0?root=icons-os&amp;system=exsy1002</url>
   </scm>
   <build>
       <plugins>
