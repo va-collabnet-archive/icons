@@ -3,10 +3,10 @@
   <parent>
     <groupId>org.ihtsdo</groupId>
     <artifactId>icons</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
   </parent>
   <artifactId>silk-icons</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <name>Icons - silk</name>
   <url>http://www.famfamfam.com/lab/icons/silk/</url>
   <licenses>
