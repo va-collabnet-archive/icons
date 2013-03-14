@@ -11,11 +11,24 @@
   <version>1.0-SNAPSHOT</version>
   <name>Icons</name>
   <packaging>pom</packaging>
-    <scm>
-        <connection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/trunk/icons</connection>
-        <developerConnection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/trunk/icons</developerConnection>
-        <url>https://csfe.aceworkspace.net/integration/viewvc/viewvc.cgi/trunk/icons/?root=icons-os&amp;system=exsy1002</url>
-    </scm>
+  <scm>
+      <connection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/trunk/icons</connection>
+      <developerConnection>scm:svn:https://csfe.aceworkspace.net/svn/repos/icons-os/trunk/icons</developerConnection>
+      <url>https://csfe.aceworkspace.net/integration/viewvc/viewvc.cgi/trunk/icons/?root=icons-os&amp;system=exsy1002</url>
+  </scm>
+  <build>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-release-plugin</artifactId>
+              <configuration>
+                  <preparationGoals>clean install</preparationGoals>
+                  <autoVersionSubmodules>true</autoVersionSubmodules>
+                  <remoteTagging>true</remoteTagging>
+              </configuration>
+          </plugin>
+      </plugins>
+  </build>  
   <modules>
     <module>flag-icons</module>
     <module>fugue-icons</module>
